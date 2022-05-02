@@ -37,7 +37,7 @@ print("h1", h1)
 
 # sim obj
 sim = flopy.mf6.MFSimulation(
-    sim_name="hough", exe_name="pymake/examples/mf6", version="mf6", sim_ws="."
+    sim_name="hough", exe_name="binary/mf6", version="mf6", sim_ws="."
 )
 
 # time obj - setting time to 100 days, 200 time periods
